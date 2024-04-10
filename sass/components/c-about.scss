@@ -1,0 +1,12 @@
+.c-about {
+    display: flex;
+    align-items: flex-start;
+    .c-about-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .c-about-img{
+        width: 3.75rem;
+        margin-right: 25px;
+    }
+}

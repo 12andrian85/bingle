@@ -1,0 +1,35 @@
+@import "./variables";
+@import "./mixins";
+
+@import "./global/scaffolding";
+@import "./global/forms";
+@import "./global/typography";
+@import "./global/buttons";
+
+@import "./blocks/header";
+@import "./blocks/apps";
+@import "./blocks/features";
+@import "./blocks/business-solution.scss";
+@import "./blocks/about.scss";
+@import "./blocks/ideal-apps.scss";
+@import "./blocks/products.scss";
+@import "./blocks/development.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/pricing-plan.scss";
+@import "./blocks/reviews.scss";
+@import "./blocks/news.scss";
+@import "./blocks/contact-us.scss";
+
+@import "./blocks/main-nav";
+@import "./blocks/footer";
+
+// componenets
+@import "./components/c-bg.scss";
+@import "./components/c-title-footer.scss";
+@import "./components/c-socials.scss";
+@import "./components/c-news.scss";
+@import "./components/c-review.scss";
+@import "./components/c-pricing.scss";
+@import "./components/c-feature.scss";
+@import "./components/c-title.scss";
+@import "./components/c-about.scss";

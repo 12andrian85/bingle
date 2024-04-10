@@ -1,0 +1,37 @@
+.c-news {
+    .card {
+        border: none;
+        box-shadow: 0px 10px 80px 0px rgba(193, 193, 193, 0.41);
+    }
+
+    .card-date {
+        background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        margin-bottom: 2.5rem;
+    }
+
+    .card-title p {
+        font-weight: 600;
+        color: $dark;
+        transition: all 0.3s ease-out;
+    }
+
+    .card-title p:hover {
+        color: $secondary;
+
+    }
+
+    .card-text {
+        color: $primary;
+        margin-bottom: 2.2rem;
+    }
+
+    .card-footer {
+        padding-top: 1.5rem;
+        background-color: transparent;
+        display: flex;
+        align-items: center
+    }
+}

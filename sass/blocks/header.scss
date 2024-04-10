@@ -1,0 +1,137 @@
+.header {
+    width: 100%;
+    position: fixed;
+
+    &__background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: $secondary;
+        opacity: 0.5;
+
+    }
+
+    .navbar {
+        background-color: transparent;
+        padding: 0;
+
+        .navbar-img {
+            height: 2.5rem;
+        }
+
+        .navbar-icon {
+            color: $white;
+            font-size: 1.85rem;
+            align-items: center;
+
+        }
+
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+
+            .navbar-icon {
+                color: #DF3794FF;
+
+            }
+        }
+
+        .navbar-icon {
+            color: $white;
+            font-size: 1.85rem;
+            align-items: center;
+
+        }
+
+        .navbar-nav {
+            background-color: white
+        }
+
+        .nav-link:hover {
+            color: $secondary;
+        }
+
+        .nav-link {
+            color: $primary;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 30px 15px;
+            border-bottom: 1px solid $gray-300;
+        }
+
+        .nav-link:after {
+            display: none;
+        }
+
+        // ---DROPDOWN---
+        .dropdown:hover {
+            .dropdown-menu {
+                width: 15.5rem;
+                display: block;
+                border-radius: 0;
+                padding: 0;
+
+            }
+        }
+
+        .dropdown-menu {
+            border-top: 2px solid $secondary;
+        }
+
+        .dropdown-item {
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 12px 15px;
+            color: black;
+            border-bottom: 1px solid $primary;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .dropdown-item:hover {
+            color: $secondary;
+        }
+
+        .nav-btn {
+            padding: 10px 25px;
+            background-color: $white;
+            font-weight: 600;
+            border: none;
+            transition: all 0.3s;
+        }
+
+        .nav-btn:hover {
+            background-color: $secondary;
+            color: $white;
+        }
+    }
+}
+
+@media (min-width: $width-desktop) {
+    .header {
+        background-color: transparent;
+
+        .navbar {
+            .navbar-nav {
+                background-color: transparent;
+                align-items: center;
+
+            }
+
+            .nav-link {
+                color: $white;
+                border-bottom: none;
+                // margin: 0 5px;
+                font-size: 0.87rem;
+            }
+
+
+            .navbar-collapse {
+                justify-content: end;
+            }
+        }
+    }
+}

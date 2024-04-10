@@ -1,0 +1,67 @@
+// scss-docs-start gray-color-variables
+$gray-100: #f8f9fa;
+$gray-600: #6c757d;
+$gray-900: #190a32;;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start color-variables
+$c-primary:    #666666;
+$c-secondary:  #FF3494FF;
+$red:     #cc0a1e;
+$yellow:  #e6ff07;
+$green:   #5fc01e;
+$cyan:    #3bdeff;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-color-variables
+$primary:       $c-primary;
+$secondary:     $c-secondary;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+// scss-docs-end theme-color-variables
+
+// Create your own map
+$custom-colors: (
+  "custom-color": #7D4196
+);
+
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:  'Poppins', sans-serif;
+$font-size-base:              0.875rem;
+
+// bg-chek-input
+
+$form-check-input-bg:#7D4196 ;
+$form-check-input-checked-bg-color: #7D4196;
+$form-check-input-focus-border: none;
+$form-switch-color: white;
+$form-switch-checked-color: white;
+$form-switch-focus-color: white;
+
+
+
+// @media (min-width: $width-tablet) {}
+// @media (min-width: $width-desktop) {}
+
+// breackpoints
+$width-mobile: 320px;
+$width-tablet: 768px;
+$width-desktop: 992px;
+$width-x-desktop: 1200px;
+$width-xx-desktop: 1400px;
+// $width-xxx-desktop: 2560px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  // xxl: 1370px
+);
+// container-padding-x
+$grid-gutter-width:           1.5rem;

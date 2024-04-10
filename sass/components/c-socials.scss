@@ -1,0 +1,22 @@
+.c-socials {
+    // background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+
+    &__list {
+        padding: 15px 0;
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    &__icon{
+        color: $secondary;
+    }
+}

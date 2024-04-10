@@ -1,0 +1,21 @@
+.c-title-footer {
+    &__title {
+        position: relative;
+        color: $white;
+        font-size: 19px;
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+        text-transform: capitalize;
+    }
+    &__title::after{
+        position: absolute;
+        content: "";
+        height: 4px;
+        width: 100%;
+        background-image: url("/public/img/tf-line.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0;
+        left: 0;
+    }
+}

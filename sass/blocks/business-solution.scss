@@ -1,0 +1,67 @@
+.business-solution {
+
+    &__bg {
+        width: 19.5rem;
+    }
+
+    &__mobile {
+        // background-image: url("/public/img/easy-m-bg.png");
+        background-size: 15.6rem;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+
+
+    p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 24px;
+        color: #666666;
+        margin-bottom: 1rem;
+    }
+
+    &__btn-apple:hover {
+        background: transparent linear-gradient(90deg, #FF3494 0%, #7D4196 100%) 0% 0% no-repeat padding-box;
+        transition: all 0.3s ease 0s;
+        border: none;
+        color: $white;
+    }
+
+    &__btn-apple {
+        background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 3px 4px 25px #C63A9580;
+        color: $white;
+        border: none;
+        padding: 10px 28px;
+        margin-bottom: 20px;
+    }
+
+    &__btn-google:hover {
+        border: 1px solid rgb(102, 42, 102);
+    }
+
+    &__btn-google {
+        margin-bottom: 20px;
+        background-color: white !important;
+        padding: 10px 28px;
+        border: 1px solid rgb(102, 42, 102);
+    }
+
+}
+
+@media (min-width: $width-tablet) {
+    .business-solution {
+        &__bg {
+            width: 41rem;
+        }
+    }
+}
+
+@media (min-width: $width-desktop) {
+    .business-solution {
+        &__bg {
+            width: 37.5rem;
+        }
+    }
+}

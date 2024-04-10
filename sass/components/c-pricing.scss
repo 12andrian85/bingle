@@ -1,0 +1,85 @@
+.c-pricing {
+    .card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0px 5px 25px #00000033;
+        border: 3px solid #fff;
+        background: #fff;
+
+        .card-title {
+            font-size: 30px;
+            font-weight: 600;
+            color: #7D4196;
+            margin-bottom: 20px;
+
+        }
+
+        .card-inner {
+            color: $secondary;
+        }
+
+        .card-value {
+            position: relative;
+            top: -25px;
+            font-size: 25px;
+            font-weight: 500;
+
+        }
+
+        .card-price {
+            font-size: 60px;
+            font-weight: 600;
+        }
+
+        .card-month {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .card-subtitle {
+            color: #7D4196;
+            font-size: 25px;
+            font-weight: 500;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .card-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .card-icon {
+            color: $secondary;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .card-button {
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+            padding: 15px 35px;
+            position: relative;
+            bottom: -40px;
+            background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 3px 4px 25px #C63A9580;
+        }
+        .card-button:hover{
+            background: $secondary;
+        }
+
+
+    }
+
+}

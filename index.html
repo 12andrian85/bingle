@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bingle</title>
+    <meta name="description" content="About website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header position-fixed z-1">
+        <div class="header__background"></div>
+        <div class="container">
+            <!--navigation-bar-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid px-0 ">
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar-img" src="public/img/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-icon material-symbols-outlined d-flex">menu</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link  active text-secondary" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-nowrap nav-link" href="#about">About As</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="components.html">comps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Screenshot</a>
+                            </li>
+                            <!-- dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Other
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                                    <li><a class="dropdown-item" href="#reviews">Testimonios</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item border-0" href="#">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-btn btn rounded-pill" href="#">DOWNLOAD</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- APPS -->
+        <div class="apps mb-5">
+            <img class="apps__img position-absolute end-0" src="public/img/pink-header-bg.png" alt="image">
+            <div class="d-flex justify-content-end">
+            </div>
+            <div class="container apps__container">
+                <div class="row">
+                    <div class="col col-12 col-lg-6 apps__col">
+                        <!-- subtitle -->
+                        <div class="apps__subtitle  rounded-pill d-flex mb-4">
+                            <span class="apps__new rounded-pill">New</span>
+                            <span class="apps__best">Best Mobile Apps</span>
+                        </div>
+                        <!-- tilte -->
+                        <h1 class="apps__title text-capitalize mb-4">
+                            best Mobile app
+                            <span class="apps__title-content">showcasse</span>
+                        </h1>
+                        <p class="apps__content">
+                            Aenean dictum odio dapibus turpis dapibus
+                            vestibulum. Mauris quis massa nisi. Nullam porta
+                            lorem at volutpat euismod. Proin in ex nunc.
+                        </p>
+                        <a href="#" class="apps__btn btn d-none d-md-block w-auto- my-4">Read More</a>
+                    </div>
+                    <div class="col col-12 col-lg-6">
+                        <div class="apps__img-mobile">
+                            <img class="apps__foto-mobile" src="/public/img/mobile.png" alt="mobile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- FEATURES -->
+            <section class="features mb-5">
+                <div class="row" id="about">
+                    <div class="text-center px-5 mb-5">
+                        <h2 class="features__title mb-3">Our Features</h2>
+                        <p class="features__content">
+                            Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                            risus vel scelerisque porttitor, leo
+                            quam vulputate nibh, sit amet blandit erat magna.
+                        </p>
+                    </div>
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-FEATURE -->
+                        <div class="c-feature">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/public/img/f-icon1.png" class="card-img-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perfect UI Design</h5>
+                                    <p class="card-text">Praesent ac vehicula sapien.
+                                        Sed sollicitudin molestie consequat. Ut
+                                        vitae ante ut mi vehicula vulputate..</p>
+                                    <a href="#" class="card-btn">1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-FEATURE -->
+                        <div class="c-feature">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/public/img/f-icon3.png" class="card-img-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perfect UI Design</h5>
+                                    <p class="card-text">Praesent ac vehicula sapien.
+                                        Sed sollicitudin molestie consequat. Ut
+                                        vitae ante ut mi vehicula vulputate..</p>
+                                    <a href="#" class="card-btn">2</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-FEATURE -->
+                        <div class="c-feature">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/public/img/f-icon2.png" class="card-img-top" alt="foto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perfect UI Design</h5>
+                                    <p class="card-text">Praesent ac vehicula sapien.
+                                        Sed sollicitudin molestie consequat. Ut
+                                        vitae ante ut mi vehicula vulputate..</p>
+                                    <a href="#" class="card-btn">3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- BUSINESS SOLUTION -->
+        <section class="business-solution mb-5 position-relative">
+            <img class="business-solution__bg z-n1 position-absolute" src="/public/img/easy-m-bg.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-xl-6">
+                        <div class="business-solution__mobile overflow-hidden">
+                            <img class="business-solution__img w-100" src="/public/img/mobile2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-12 col-xl-6">
+                        <article>
+                            <h2 class="c-title mb-4">
+                                Easy And Perfect Solution For Your Business App
+                            </h2>
+                            <p class="mb-3">
+                                Aliquam aliquet purus a est consequat lobortis. Etiam vehicula suscipit purus, eget
+                                ullamcorper augue blandit vitae. Ut eu euismod felis. Etiam at varius quam. Vivamus
+                                lacinia pulvinar turpis in suscipit. Aenean mattis enim ut pretium gravida. Sed
+                                fermentum a lacus bibendum convallis.
+                            </p>
+                            <p>
+                                Consequat purus aliquet a est aliquam lobortis. Etiam vehicula suscipit purus, eget
+                                ullamcorper augue blandit vitae. Ut eu euismod felis. Etiam at varius quam. Vivamus
+                                lacinia pulvinar turpis in suscipit. Aenean mattis enim ut pretium gravida. Sed
+                                fermentum a lacus bibendum convallis.
+                            </p>
+                        </article>
+                        <div class="d-flex flex-column flex-md-row align-items-start">
+                            <a href="#" class="btn business-solution__btn-apple me-3">
+                                <span class="d-flex align-items-center">
+                                    <img src="/public/img/apple-icon.png" class="me-3" alt="">
+                                    <div class="d-flex flex-column text-start">
+                                        <span class="">
+                                            Available on
+                                        </span>
+                                        <span class="fw-medium">APP STORE</span>
+                                    </div>
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn business-solution__btn-google">
+                                <span class="d-flex align-items-center">
+                                    <img src="/public/img/g-play-icon.png" class="me-3" alt="">
+                                    <div class="d-flex flex-column text-start">
+                                        <span>
+                                            Available on
+                                        </span>
+                                        <span class="fw-medium fs-5 text-secondary">GOOGLE PLAY</span>
+                                    </div>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+
+            <!-- ABOUT -->
+            <section class="about mb-5">
+                <div class="row" id="features">
+                    <div class="col col-12 col-lg-6">
+                        <h2 class="c-title mb-4">How does This App Work?</h2>
+                        <ul>
+                            <li class="about__items">
+                                <!-- C-ABOUT -->
+                                <div class="c-about">
+                                    <img src="/public/img/apw-Icon1.png" class="c-about-img" alt="">
+                                    <div class="text-start">
+                                        <h4 class="c-about-title">Download It For Free</h4>
+                                        <p>
+                                            Aliquam varius ligula nec leo tempus porta. Vestibulum suscipit leo at nunc
+                                            imperdiet, quis
+                                            lacinia nisi euismod.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="about__items">
+                                <!-- C-ABOUT -->
+                                <div class="c-about">
+                                    <img src="/public/img/apw-Icon2.png" class="c-about-img" alt="">
+                                    <div class="text-start">
+                                        <h4 class="c-about-title">Enjoy This App</h4>
+                                        <p>
+                                            Aliquam varius ligula nec leo tempus porta. Vestibulum suscipit leo at nunc
+                                            imperdiet, quis
+                                            lacinia nisi euismod.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="about__items">
+                                <!-- C-ABOUT -->
+                                <div class="c-about">
+                                    <img src="/public/img/apw-Icon3.png" class="c-about-img" alt="">
+                                    <div class="text-start">
+                                        <h4 class="c-about-title">Enjoy This App</h4>
+                                        <p>
+                                            Aliquam varius ligula nec leo tempus porta. Vestibulum suscipit leo at nunc
+                                            imperdiet, quis
+                                            lacinia nisi euismod.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-12 col-lg-6">
+                        <div class="d-flex justify-content-center justify-content-lg-end">
+                            <img class="about__img" src="/public/img/app-work-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- IDEAL APPS -->
+        <section class="ideal-apps mb-5">
+            <div class="row">
+                <div class="col col-12 col-lg-6 pe-0">
+                    <div class="ideal-apps__container">
+                        <img class="ideal-apps__img rounded-end" src="/public/img/video-img.png" alt="img">
+                        <a href="https://www/youtube.com" class="ideal-apps__play">
+                            <img src="/public/img/play-btn.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-6 pe-0">
+                    <div class="container d-flex flex-column justify-content-center py-3">
+                        <h2 class="c-title ideal-apps__title text-start me-md-5 mb-4">
+                            Build The App That Everyonee Love
+                        </h2>
+                        <div>
+                            <p class="ideal-apps__text">
+                                Praesent fermentum nisl at ipsum facilisis viverra. Ut elementum accumsan finibus. Cras
+                                placerat
+                                lacinia mi, ac dictum ante. Donec libero enim, tincidunt sit amet venenatis id, maximus
+                                eu
+                                quam.
+                            </p>
+                            <ul class="ideal-apps__list">
+                                <li class="ideal-apps__items">
+                                    <img src="/public/img/vs-icon.png" class="ideal-apps__icon" alt="img">
+                                    <span>Pellentesque placerat, nisi congue vehicula efficitur.</span>
+                                </li>
+                                <li class="ideal-apps__items">
+                                    <img src="/public/img/vs-icon.png" class="ideal-apps__icon" alt="img">
+                                    <span>Pellentesque placerat, nisi congue vehicula efficitur.</span>
+                                </li>
+                                <li class="ideal-apps__items">
+                                    <img src="/public/img/vs-icon.png" class="ideal-apps__icon" alt="img">
+                                    <span>Suspendisse vitae varius diam, a vulputate urna.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="container">
+            <!-- PRODUCTS -->
+            <div class="products mb-5">
+                <div class="text-center">
+                    <h2 class="c-title mb-4">Our apps
+                        ScreenSoots
+                    </h2>
+                    <div>
+                        <p>
+                            Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                            risus vel scelerisque porttitor, <br> leo quam
+                            vulputate nibh, sit amet blandit erat magna.
+                        </p>
+                    </div>
+                </div>
+                <!-- slide-->
+                <section class="splide splideone  py-5" aria-label="Basic Structure Example">
+                    <div class="splide__track" id="products">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="/public/img/screen-img03.png" alt="img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="/public/img/screen-img02.png" alt="img">
+                            </li>
+                            <li class="splide__slide position-relative">
+                                <img class="splide__img" src="/public/img/screen-img01.png" alt="img">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="/public/img/screen-img03 (1).png" alt="img">
+                            </li>
+                            <li class="splide__slide">
+                                <img class="h-100" src="/public/img/screen-img04.png" alt="img">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="d-flex mt-5 splide__pagination splide__pagination--ltr" role="tablist"
+                        aria-label="Select a slide to show">
+
+                    </ul>
+
+
+                </section>
+            </div>
+            <!-- DEVELOPEMENTS -->
+            <section class="development mb-5">
+                <div class="row">
+                    <div class="col col-12 col-md-6">
+                        <img src="/public/img/logos-icons.png" class="card-img-top" alt="img">
+                    </div>
+                    <div class="col col-12 col-md-6 d-flex align-items-end">
+                        <div class="development__content">
+                            <!-- C-TITLE -->
+                            <h2 class="c-title mb-4">
+                                Designed & Worked By The Latest Partners
+                            </h2>
+                            <p class="card-text">
+                                Duis non aliquet tellus, in mollis leo.
+                                Phasellus quis posuere dui. Nulla mauris purus,
+                                mattis eget sagittis at, accumsan sed leo.
+                            </p>
+                            <div>
+                                <!-- accordion -->
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Aliquam varius ligula nec leo tempus porta.
+                                                <span class="material-symbols-outlined">
+                                                    visibility_off
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Suspendisse vitae varius diam, a vulputate urna.
+                                                <span class="material-symbols-outlined">
+                                                    visibility_off
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Aliquam aliquet purus eget lacus pretium.
+                                                <span class="material-symbols-outlined">
+                                                    visibility_off
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+        <!-- SUBSSCRIBE -->
+        <div class="subscribe py-5 mb-5 overflow-hidden">
+            <div class="container">
+                <form action="" class="subscribe__form">
+                    <!-- C-TITLE -->
+                    <h2 class="c-title mb-4">
+                        Subscreibe For New Features
+                    </h2>
+                    <p class="text-white">
+                        Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                        risus vel scelerisque porttitor, leo quam
+                        vulputate nibh, sit amet blandit erat magna.
+                    </p>
+                    <div class="input-group mb-3 justify-content-center">
+                        <label class=" subscribe__label" for="">
+                            <input type="text" class="subscribe__input" placeholder="Email Address">
+                            <button class="btn subscribe__btn">Subscribe Now</button>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <!-- PRICING PLAN -->
+            <section class="pricing-plan mb-5">
+                <div class="row" id="pricing">
+                    <div class="col col-12 text-center">
+                        <!-- C-TITLE -->
+                        <h2 class="c-title mb-4">Our Pricing Plans</h2>
+                        <p class="mb-5 px-3 px-md-5">Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                            risus vel scelerisque porttitor, leo quam
+                            vulputate nibh, sit amet blandit erat magna.
+                        </p>
+                        <form class="form d-flex align-items-center justify-content-center mb-5" role="search">
+                            <div class="form-check form-switch d-flex align-items-center px-1 pt-1 m-0">
+                                <label class="pricing-plan__label  me-2" for="checked">Monthly</label>
+                                <input class="pricing-plan__input m-0 form-check-input fs-3" type="checkbox"
+                                    role="switch" id="checked" checked>
+                                <label class="pricing-plan__label ms-2" for="checked">Anual</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-5">
+                        <!-- c-pricing -->
+                        <div class="c-pricing">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column text-center">
+                                    <h4 class="card-title">Beginer</h4>
+                                    <div class="card-inner">
+                                        <span class="card-value">$</span>
+                                        <span class="card-price">5</span>
+                                        <span class="card-month"><small><small>/</small>month</small></span>
+                                    </div>
+                                    <h4 class="card-subtitle">I hae a dream</h4>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>1000+ projets</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>No transaction fees</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>Unlimited Storage</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>5 Download</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="card-button mx-auto rounded-pill">start now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-5">
+                        <!-- c-pricing -->
+                        <div class="c-pricing">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column text-center">
+                                    <h4 class="card-title">Beginer</h4>
+                                    <div class="card-inner">
+                                        <span class="card-value">$</span>
+                                        <span class="card-price">5</span>
+                                        <span class="card-month"><small><small>/</small>month</small></span>
+                                    </div>
+                                    <h4 class="card-subtitle">I hae a dream</h4>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>1000+ projets</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>No transaction fees</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>Unlimited Storage</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>5 Download</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="card-button mx-auto rounded-pill">start now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-5">
+                        <!-- c-pricing -->
+                        <div class="c-pricing">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column text-center">
+                                    <h4 class="card-title">Beginer</h4>
+                                    <div class="card-inner">
+                                        <span class="card-value">$</span>
+                                        <span class="card-price">5</span>
+                                        <span class="card-month"><small><small>/</small>month</small></span>
+                                    </div>
+                                    <h4 class="card-subtitle">I hae a dream</h4>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>1000+ projets</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>No transaction fees</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>Unlimited Storage</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>5 Download</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="card-button mx-auto rounded-pill">start now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-5">
+                        <!-- c-pricing -->
+                        <div class="c-pricing">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column text-center">
+                                    <h4 class="card-title">Beginer</h4>
+                                    <div class="card-inner">
+                                        <span class="card-value">$</span>
+                                        <span class="card-price">5</span>
+                                        <span class="card-month"><small><small>/</small>month</small></span>
+                                    </div>
+                                    <h4 class="card-subtitle">I hae a dream</h4>
+                                    <ul class="card-list">
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>1000+ projets</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>No transaction fees</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>Unlimited Storage</span>
+                                        </li>
+                                        <li class="card-item">
+                                            <span class="card-icon material-symbols-outlined">
+                                                expand_circle_right
+                                            </span>
+                                            <span>5 Download</span>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="card-button mx-auto rounded-pill">start now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </section>
+        <!-- REVIEWS -->
+        <section class="reviews">
+            <div class="container">
+                <div class="row" id="reviews">
+                    <div class="col   col-12 col-md-6">
+                        <div>
+                            <h2 class="c-title mb-4">What Our Clients Say’s</h2>
+                            <p>
+                                Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                                risus vel scelerisque porttitor, leo quam vulputate
+                                nibh, sit amet blandit erat magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <section class="splide review mb-5" aria-label="Basic Structure Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <!-- C-REVIEW -->
+                                <div class="c-review py-5">
+                                    <div class="card text-start">
+                                        <div class="card-body">
+                                            <h5 class="card-title">mr jone dose</h5>
+                                            <span class="card-info">autor</span>
+                                            <p class="card-text">Some quick example text to build on the card
+                                                title and make up the bulk
+                                                of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- C-REVIEW -->
+                                <div class="c-review py-5">
+                                    <div class="card text-start">
+                                        <div class="card-body">
+                                            <h5 class="card-title">mr jone dose</h5>
+                                            <span class="card-info">autor</span>
+                                            <p class="card-text">Some quick example text to build on the card
+                                                title and make up the bulk
+                                                of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- C-REVIEW -->
+                                <div class="c-review py-5">
+                                    <div class="card text-start">
+                                        <div class="card-body">
+                                            <h5 class="card-title">mr jone dose</h5>
+                                            <span class="card-info">autor</span>
+                                            <p class="card-text">Some quick example text to build on the card
+                                                title and make up the bulk
+                                                of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="splide__arrows splide__arrows--ltr">
+                            <button class=" splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide"
+                                aria-controls="splide01-track">
+                                <span class="material-symbols-outlined">
+                                    west
+                                </span>
+                            </button>
+                            <button class=" splide__arrow splide__arrow--next" type="button" aria-label="Next slide"
+                                aria-controls="splide01-track">
+                                <span class="material-symbols-outlined">
+                                    east
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- NEWS -->
+        <div class="container">
+            <section class="news mb-5">
+                <div class="col col-12 col-md-7  mx-auto">
+                    <div class="text-center mb-5">
+                        <!-- C-TITLE -->
+                        <h2 class="c-title mb-4">Our Latest Blog & News</h2>
+                        <p class="new__title">
+                            Duis non aliquet tellus, in mollis leo.
+                            Phasellus quis posuere dui. Nulla mauris purus, mattis
+                            eget sagittis at, accumsan sed leo.
+                        </p>
+                    </div>
+                </div>
+                <div class="row" id="news">
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-NEWS -->
+                        <div class="c-news">
+                            <div class="card mb-5">
+                                <img src="/public/img/inner_b1.jpg" class="card-img-top" alt="img">
+                                <div class="card-body">
+                                    <a href="#" class="btn card-date">2 jan 2019</a>
+                                    <a href="#" class="card-title">
+                                        <p>Making Distribut Product Team
+                                            Work More With Monday</p>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisi
+                                        cing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="card-footer border-top">
+                                        <img class="rounded-circle me-4" src="public/img/admin-img.png" alt="img">
+                                        <span class="d-flex flex-column text-start">
+                                            <h6 class="mb-0">Jhon Abraham</h6>
+                                            <span>Autor</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-NEWS -->
+                        <div class="c-news">
+                            <div class="card mb-5">
+                                <img src="/public/img/inner_b2.jpg" class="card-img-top" alt="img">
+                                <div class="card-body">
+                                    <a href="#" class="btn card-date">2 jan 2019</a>
+                                    <a href="#" class="card-title">
+                                        <p>Making Distribut Product Team
+                                            Work More With Monday</p>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisi
+                                        cing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="card-footer border-top">
+                                        <img class="rounded-circle me-4" src="public/img/admin-img.png" alt="img">
+                                        <span class="d-flex flex-column text-start">
+                                            <h6 class="mb-0">Jhon Abraham</h6>
+                                            <span>Autor</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-lg-4">
+                        <!-- C-NEWS -->
+                        <div class="c-news">
+                            <div class="card mb-5">
+                                <img src="/public/img/inner_b3.jpg" class="card-img-top" alt="img">
+                                <div class="card-body">
+                                    <a href="#" class="btn card-date">2 jan 2019</a>
+                                    <a href="#" class="card-title">
+                                        <p>Making Distribut Product Team
+                                            Work More With Monday</p>
+                                    </a>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisi
+                                        cing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="card-footer border-top">
+                                        <img class="rounded-circle me-4" src="public/img/admin-img.png" alt="img">
+                                        <span class="d-flex flex-column text-start">
+                                            <h6 class="mb-0">Jhon Abraham</h6>
+                                            <span>Autor</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT US -->
+            <div class="contact-us mb-5">
+                <div class="row" id="contacts">
+                    <div class="col col-12 col-lg-6 mb-5">
+                        <img class="contact-us__img" src="public/img/illustration.png" alt="img">
+                    </div>
+                    <div class="col col-12 col-lg-6 d-flex flex-column justify-content-between">
+                        <!-- C-TITLE -->
+                        <h2 class="c-title mb-4">Get In Touch</h2>
+                        <p class="mb-4">
+                            Quisque posuere mollis ipsum et molestie. Fusce cursus,
+                            risus vel scelerisque porttitor, leo
+                            quam vulputate nibh, sit amet blandit erat magna.
+                        </p>
+                        <form class="form" action="">
+                            <div class="mb-4">
+                                <input type="email" class="form-control" placeholder="name">
+                            </div>
+                            <div class="mb-4">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-4">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-5">
+                                <textarea class="form-control" rows="3" placeholder="write comments"></textarea>
+                            </div>
+                            <a href="#" class="btn form-send">Send Message</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer pt-5 position-relative">
+        <div class="container">
+            <div class="row">
+                <!-- social -->
+                <div class="col col-12 col-md-6 col-lg-3 pt-4">
+                    <ul class="social">
+                        <li class="social__logo">
+                            <a href="#">
+                                <img src="/public/img/w_logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <p class="social__text">
+                                Sed ut perspiciatis unde om is nerror sit
+                                voluptatem accustium dolorem tium totam rem aperam
+                                quae.
+                            </p>
+                        </li>
+                        <li class="social__folow">
+                            <!-- C-SOCIALS -->
+                            <div class="c-socials">
+                                <ul class="c-socials__list">
+                                    <li class="c-socials__item">
+                                        <a href="#">
+                                            <i class="c-socials__icon fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="c-socials__item">
+                                        <a href="#">
+                                            <i class="c-socials__icon fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="c-socials__item">
+                                        <a href="#">
+                                            <i class="c-socials__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="c-socials__item">
+                                        <a href="#">
+                                            <i class="c-socials__icon fa-brands fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-3">
+                    <!-- c-title-footer -->
+                    <div class="c-title-footer">
+                        <h5 class="c-title-footer__title">company news</h5>
+                    </div>
+                    <!-- news -->
+                    <ul class="footer__list">
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">partners</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">about us</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">career</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">reviews</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">terms & conditions </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-3">
+                    <!-- c-title-footer -->
+                    <div class="c-title-footer">
+                        <h5 class="c-title-footer__title">useful links</h5>
+                    </div>
+                    <!-- links -->
+                    <ul class="footer__list">
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">home</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">about us</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">services</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">project</a>
+                        </li>
+                        <li class="footer__items">
+                            <a class="footer__link" href="#">our team</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-md-6 col-lg-3">
+                    <!-- c-title-footer -->
+                    <div class="c-title-footer">
+                        <h5 class="c-title-footer__title">useful links</h5>
+                    </div>
+                    <!-- contacts -->
+                    <div class="contact-footer">
+                        <ul class="contact-footer__list">
+                            <li class="contact-footer__item">
+                                <i class="contact-footer__icon fa-solid fa-phone"></i>
+                                <div class="d-flex flex-column">
+                                    <span>1800-121-3637</span>
+                                    <span>+91 555 234-8765</span>
+                                </div>
+                            </li>
+                            <li class="contact-footer__item">
+                                <i class="contact-footer__icon fa-regular fa-envelope"></i>
+                                <div class="d-flex flex-column">
+                                    <a class="footer__link mb-0" href="#">info@example.com</a>
+                                    <a class="footer__link mb-0" href="#">sale@example.com</a>
+                                </div>
+                            </li>
+                            <li class="contact-footer__item">
+                                <i class="contact-footer__icon fa-solid fa-location-dot px-2"></i>
+                                <div class="d-flex flex-column">
+                                    <span>380 St Kilda Road, Melbourne</span>
+                                    <span>VIC 3004, Australia</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- development -->
+                <div class="col col-12 border-top text-center py-4">
+                    <p class="text-white mb-0">© 2020 @ Bengle All design Zcube.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="footer__btn">
+            <span class="material-symbols-outlined">
+                arrow_upward_alt
+            </span>
+        </a>href="#top"
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

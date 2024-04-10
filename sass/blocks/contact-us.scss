@@ -1,0 +1,34 @@
+.contact-us {
+    &__img {
+        width: 100%;
+    }
+
+    .form {
+        .form-control {
+            border: none;
+            box-shadow: 3px 4px 15px #0000001A;
+            color: $primary;
+            padding: 10px;
+        }
+
+        .form-send {
+            background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 20px;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+        }
+    }
+}
+
+
+@media (min-width: $width-desktop) {
+    .contact-us {
+        &__img {
+            position: relative;
+            left: -165px;
+            width: auto;
+        }
+    }
+}

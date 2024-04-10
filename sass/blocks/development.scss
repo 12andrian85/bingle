@@ -1,0 +1,51 @@
+.development {
+
+    .accordion-item {
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 3px 11px #00000026;
+    }
+
+
+}
+
+.accordion-button:after {
+    display: none;
+}
+
+.accordion-button {
+    background-color: $white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 20px 30px;
+    padding-right: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-button:focus {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    padding-right: 55px;
+    background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+
+
+@media (min-width: $width-desktop) {
+    .development {
+        .card {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.apps {
+
+    background-image: url("/public/img/header-sape.png");
+    background-size: cover;
+    overflow: hidden;
+
+    &__img {
+        width: 65%;
+    }
+
+    &__container {
+        position: relative;
+
+    }
+
+    &__col {
+        padding-top: 11.55rem;
+    }
+
+    &__subtitle {
+        align-items: center;
+        background-color: $gray-200;
+        width: max-content;
+    }
+
+    &__new {
+        color: White;
+        padding: 3px 20px;
+        background-color: #7D4196FF;
+    }
+
+    &__best {
+        padding: 0 20px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #190a32;
+    }
+
+    &__title-content {
+        color: $secondary;
+        letter-spacing: -3px;
+
+    }
+
+    &__content {
+        color: $primary;
+    }
+
+    &__foto-mobile {
+        width: 100%;
+    }
+
+    &__btn {
+        width: max-content;
+        border-radius: 50px;
+        font-size: 16px;
+        padding: 15px 35px;
+        font-weight: 500;
+        line-height: 1;
+        transition: all 0.3s ease 0s;
+        background: transparent linear-gradient(90deg, #7D4196 0%, #FF3494 100%) 0% 0% no-repeat padding-box;
+        color: #fff;
+    }
+
+
+    &__btn:hover {
+        color: #fff;
+        background: transparent linear-gradient(90deg, #FF3494 0%, #7D4196 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 3px 4px 25px #C63A9580;
+    }
+
+   
+}
+
+
+@media (min-width: $width-tablet) {
+    .apps {
+        &__title {
+            font-size: 4rem;
+        }
+
+        &__col {
+            padding-top: 18.5rem;
+        }
+    }
+}
+
+@media (min-width: $width-desktop) {
+    .apps {
+        position: relative;
+        overflow: hidden;
+
+        &__container {
+            position: relative;
+            margin-top: 7.5rem;
+        }
+
+        &__title {
+            font-size: 3.5rem;
+        }
+
+        &__content {
+            font-size: 1rem;
+        }
+
+        &__col {
+            padding-top: 9rem;
+        }
+
+        &__img-mobile {
+            position: relative;
+        }
+
+        &__foto-mobile {
+            width: 30.5rem;
+        }
+
+    }
+}
+
+@media (min-width: $width-x-desktop) {
+    .apps {
+        &__foto-mobile {
+            width: 44.5rem;
+            margin-left: -9rem;
+        }
+    }
+}

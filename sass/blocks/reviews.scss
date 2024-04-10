@@ -1,0 +1,39 @@
+.reviews {
+    background-image: url("/public/img/client-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: center;
+    background-size: 16rem;
+
+    .splide {
+        &__arrows {
+            position: relative;
+            bottom: 10px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        &__arrow {
+            background-color: transparent;
+            color: $secondary;
+            // width: 15px;
+        }
+        
+        
+        &__arrow--prev {
+            position: relative;
+            margin-right: 20px;
+        }
+        
+        &__arrow--next {
+            position: relative;
+            margin-left: 20px;
+        }
+    }
+}
+@media (min-width: $width-desktop) {
+    .reviews {
+        background-size: 35rem;
+    }
+}

@@ -1,0 +1,61 @@
+.c-review {
+    .card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0px 5px 25px #00000033;
+        border: 3px solid #fff;
+        background: #fff;
+        margin: 0 20px;
+    }
+
+    .card-body {
+        position: relative;
+        padding-left: 3.5rem;
+    }
+
+    .card-body::before {
+        position: absolute;
+        content: "";
+        width: 77px;
+        height: 59px;
+        border-radius: 50%;
+        left: -30px;
+        background-image: url(/public/img/testi_avatar.png);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .card-body::after {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 60px;
+        top: -2px;
+        right: 5px;
+        background-image: url("/public/img/qutation.png");
+        background-position: center;
+        background-size: 45px;
+        background-repeat: no-repeat;
+
+    }
+
+    .card-title {
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+
+    .card-info {
+        font-size: 14px;
+        color: #7D4196;
+    }
+
+    .card-text {
+        color: $primary;
+        margin-top: 2rem;
+
+    }
+
+}

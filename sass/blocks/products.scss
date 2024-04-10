@@ -1,0 +1,40 @@
+.products {
+    .splide {
+        &__arrow {
+            display: none;
+        }
+
+        &__slide img {
+            height: 102%;
+            padding: 35px 15px;
+        }
+
+        &__slide {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 335px;
+            height: 568px;
+        }
+
+        &__pagination {
+            align-items: center;
+        }
+
+        &__pagination button {
+            width: 30px;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        .splide__slide.is-active::before {
+            position: absolute;
+            content: "";
+            background-image: url("/public/img/iphone-slider.png");
+            z-index: 11;
+            width: 335px;
+            height: 568px;
+            background-size: cover;
+        }
+    }
+}
