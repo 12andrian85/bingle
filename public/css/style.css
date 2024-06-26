@@ -11312,7 +11312,7 @@ p {
   }
 }
 .apps {
-  background-image: url("/public/img/header-sape.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/header-sape.png");
   background-size: cover;
   overflow: hidden;
 }
@@ -11478,7 +11478,7 @@ p {
 }
 
 .ideal-apps {
-  background-image: url("public/img/header-sape.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/header-sape.png");
   background-color: #f8f9fa;
   background-size: cover;
 }
@@ -11555,7 +11555,7 @@ p {
 .products .splide .splide__slide.is-active::before {
   position: absolute;
   content: "";
-  background-image: url("/public/img/iphone-slider.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/iphone-slider.png");
   z-index: 11;
   width: 335px;
   height: 568px;
@@ -11606,7 +11606,7 @@ p {
   }
 }
 .subscribe {
-  background-image: url("/public/img/subscribe-bg.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/subscribe-bg.png");
   color: #fff;
 }
 .subscribe__form {
@@ -11638,7 +11638,7 @@ p {
 }
 
 .reviews {
-  background-image: url("/public/img/client-bg.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/client-bg.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: center;
@@ -11695,7 +11695,7 @@ p {
   }
 }
 .footer {
-  background-image: url("/public/img/f-bg.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/f-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11773,7 +11773,7 @@ p {
   content: "";
   height: 4px;
   width: 100%;
-  background-image: url("/public/img/tf-line.png");
+  background-image: url("https://12andrian85.github.io/bingle/public/img/tf-line.png");
   background-size: contain;
   background-repeat: no-repeat;
   bottom: 0;
