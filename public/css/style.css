@@ -11616,6 +11616,7 @@ p {
 }
 .subscribe__label {
   display: flex;
+  align-items: center;
   border-radius: 30px;
   border: 1px solid #fff;
 }
@@ -11623,7 +11624,7 @@ p {
   background: none;
   border: none;
   height: calc(1.5em + 0.75rem + 10px);
-  padding: 9px 30px;
+  padding-left: 5px;
   color: #fff;
   font-size: 1rem;
 }
